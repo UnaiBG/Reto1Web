@@ -1,0 +1,169 @@
+header{
+ background-color: black;
+ padding: 10px 50px;
+ height: 150px;
+ display: flex;
+}
+  
+#logo{
+ width: 15%; 
+ height: auto;
+ position: absolute;
+ right:50px; 
+ top: -20px;
+}
+  
+#inicio{
+ background-color: white;
+ color: black;
+ text-decoration: none;
+ padding: 15px 30px;
+ border-radius: 15px;
+ font-size: 18px;
+ font-weight: bold;
+ position: absolute;
+ top: 30px;
+ margin-left: 15.2%;
+}
+  
+.menu{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: flex-end;
+ gap: 20px;
+ bottom: 20px; 
+ left: 5%;
+ margin-bottom: 20px;
+}
+  
+#equipos, #apuestas, #clasificacion, #calendario {
+ background-color: white;
+ color: black;
+ padding: 10px 20px;
+ border-radius: 20px;
+ text-decoration: none; 
+ font-weight: bold;
+ font-size: 16px;
+}
+
+#noticias{
+ background-color: darkorange;
+ color: white;
+ padding: 10px 20px;
+ border-radius: 20px;
+ text-decoration: none; 
+ font-weight: bold;
+ font-size: 16px;
+}
+  
+body{
+ background-color: lightgray;
+}
+
+.titulo{
+ background-color: darkorange;
+ color: white;
+ display: flex;
+ justify-content: center;
+ width: 25%;
+ border-radius: 50px;
+ margin: auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ text-decoration: underline; 
+      
+}
+
+section{
+ display: flex;
+ justify-content: space-evenly;
+ flex-direction: row;
+}
+       
+.noticia-link{
+ color: black;
+ text-decoration: none;
+}
+
+.noticia{
+ width: 25%;
+ border-radius: 10px; 
+ overflow: hidden; 
+ background-color: white;
+ margin: 20px auto;
+ font-family: Arial, sans-serif;
+}
+.noticia img{
+ height: auto;
+ width: 100%;
+}
+.noticia-titulo{
+ padding: 15px;       
+}
+.noticia-titulo:hover{
+ text-decoration: underline; 
+}
+
+
+footer {
+ background-color: #0046a5;
+ color: white;
+ padding: 5px;      
+}
+.footer-container {
+ max-width: 1200px;
+  margin: 0 auto;      
+}
+    
+footer h2 {
+ font-family: 'Arial', sans-serif;
+ font-size: 1.5em;
+ color: darkorange;
+ margin-bottom: 15px;
+ text-align: center;
+}
+  
+.footer-nav {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ display: flex;
+ justify-content: start;
+ gap: 20px;
+ width: 45%;
+}
+  
+.footer-nav a {
+ text-decoration: none;
+ color: white;
+ font-family: 'Arial', sans-serif;
+ font-size: 1em;
+}
+  
+.footer-nav a:hover {
+ text-decoration: underline;
+}
+  
+.redes-sociales {
+ display: flex;
+ align-content: center;
+ width: 25%;
+ float: right;
+ justify-content: space-evenly;
+ margin-top: -30px;
+}
+  
+  
+.redes-sociales img {
+ width: 40px;
+ height: 40px;
+ border-radius: 25px;
+ padding: 10px;
+ background-color: white;
+}
+  
+footer p {
+ font-size: 0.8em;
+ margin-top: 15px;
+ width: 40%; 
+}
