@@ -1,8 +1,12 @@
+/*Estilo para centrar la imagen de fondo*/
+body{
+  background-position: center;
+}
 /* Estilos para el encabezado */
 header {
-  background-color: black;
-  padding: 10px 50px;
-  height: 150px;
+  background-color: rgba(29, 35, 40, 0.86);
+  padding: 0.8em 3em;
+  height: 9em;
   display: flex;
 
 }
@@ -19,16 +23,18 @@ header {
   justify-content: center;
   padding: 10px 0px;
   margin: 10px 220px 0px;
-  background-color: white;
-  color: black;
+  background-color: white; 
   padding: 20px 20px;
   border-radius: 15px;
   font-size: 20px;
   font-weight: bold;
-  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
+#inicio a {
+  text-decoration: none;
+  color:black;
+}
 /* Estilos para el menú de navegación */
 .menu {
   gap: 15px;
@@ -70,7 +76,7 @@ header {
 #logo{
 display: flex;
 justify-content: flex-end;
-margin: 0px 0px 0px 800px;
+margin: 0px 0px 0px 500px;
 }
 #logo img{
   width: 50%;

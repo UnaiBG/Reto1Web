@@ -1,8 +1,12 @@
+/*Estilo para centrar la imagen de fondo*/
+body{
+  background-position: center;
+}
 /* Estilos para el encabezado */
 header {
-  background-color: black;
-  padding: 10px 50px;
-  height: 150px;
+  background-color: rgba(29, 35, 40, 0.86);
+  padding: 0.8em 3em;
+  height: 9em;
   display: flex;
 }
 
@@ -69,9 +73,7 @@ margin: 0px 0px 0px 500px;
 }
 
 /* Estilo para el fondo de la página */
-body {
-  background-color: lightgray; 
-}
+
 
 .titulo{
 background-color: darkorange;
