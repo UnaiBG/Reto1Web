@@ -144,14 +144,14 @@ margin: 0px 0px 0px 500px;
         height: auto
         
       }
-      #video1{
+      .oldspice{
         display: flex;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
         width: 40%;
         height: auto;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+
         
       }
 
