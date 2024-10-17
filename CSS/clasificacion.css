@@ -100,6 +100,17 @@ margin: 0px 0px 0px 500px;
       margin-bottom: 20px;
       text-decoration: underline;
     }
+    table {
+      background-color: white;
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+  }
+  td {
+    border: 5px solid black;
+    padding: 15px;
+    text-align: center;
+}
     
     footer {
       background-color: #0046a5;
