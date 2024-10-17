@@ -145,11 +145,14 @@ margin: 0px 0px 0px 500px;
         
       }
       #video1{
+        display: flex;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
         width: 40%;
-        padding-left: 22em;
         height: auto;
+        justify-content: center;
+        align-items: center;
+        
       }
 
     footer {
