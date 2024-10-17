@@ -85,8 +85,22 @@ margin: 0px 0px 0px 500px;
   
     body{
       background-color: lightgray;
+
     }
 
+    .titulo{
+      background-color: darkorange;
+      color: white;
+      display: flex;
+      justify-content: center;
+      width: 25%;
+      border-radius: 50px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-decoration: underline;
+    }
+    
     footer {
       background-color: #0046a5;
       color: white;

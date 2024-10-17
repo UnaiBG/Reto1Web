@@ -118,6 +118,39 @@ margin: 0px 0px 0px 500px;
       .submenu a:hover{
         text-decoration: underline;
       }
+      #linea2{
+        background-color: lightgray;
+        height: 3px;
+        margin: 0px 20px 10px 20px;
+        border:none;
+      }
+      .diccionario h1{
+        text-align: center;
+        padding-top: 2%;
+      }
+      .diccionario h2{
+        font-family: sans-serif;
+      }
+      .diccionario{
+        background-color: white;
+        text-align: justify;
+        margin: 0px 150px 0px 150px;
+        padding: 0px 30px 10px 30px;
+      }
+
+      .diccionario img {
+        justify-content: center;
+        width: 100%;
+        height: auto
+        
+      }
+      #video1{
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+        width: 40%;
+        padding-left: 22em;
+        height: auto;
+      }
 
     footer {
       background-color: #0046a5;

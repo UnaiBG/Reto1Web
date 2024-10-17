@@ -67,6 +67,37 @@ header {
   transition: background-color 0.3s ease; /* Animación para hover */
 }
 
+/*Fondo a las celdas de la tabla*/
+#chicago{
+  color: white;
+  background-position: center;
+  background-image: url("../Imagenes/chicagoestadio.png");
+}
+#Golden{
+  color: white;
+  background-position: center;
+  background-image: url("../Imagenes/Goldenestadio.png");
+}
+#Lakers{
+  color: white;
+  background-position: center;
+  background-image: url("../Imagenes/Lakersestadio.png");
+}
+#Miami{
+  color: white;
+  background-position: center;
+  background-image: url("../Imagenes/Miamiestadio.png");
+}
+#Boston{
+  color: white;
+  background-position: center;
+  background-image: url("../Imagenes/Bostonestadio.png");
+}
+#Atlanta{
+  color: white;
+  background-position: center;
+  background-image: url("../Imagenes/Atlantaestadio.png");
+}
 /* Efecto hover */
 #noticias:hover, #equipos:hover, #apuestas:hover, #clasificacion:hover, #calendario:hover, #inicio:hover {
   background-color: darkorange;
