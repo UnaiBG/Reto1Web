@@ -95,8 +95,8 @@ margin: 0px 0px 0px 500px;
       width: 25%;
       border-radius: 50px;
       margin: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 10vh;
+      margin-bottom:10vh;
       text-decoration: underline; 
       }
       .submenu{
@@ -145,12 +145,14 @@ margin: 0px 0px 0px 500px;
         
       }
       .oldspice{
-        display: flex;
+        margin: 0 auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
         margin-top: 2.5em;
         margin-bottom: 2.5em;
-        width: 40%;
         height: auto;
-        text-align: center;
+        
 
         
       }

@@ -96,20 +96,66 @@ margin: 0px 0px 0px 500px;
       width: 25%;
       border-radius: 50px;
       margin: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 10vh;
+      margin-bottom:10vh;
       text-decoration: underline;
     }
-    table {
+    /*estilo de la tabla*/
+    #tb {
+      margin: 0 auto;
       background-color: white;
-      width: 100%;
+      width: 75%;
       border-collapse: collapse;
-      margin-bottom: 30px;
+      margin-bottom: 3em;
+      font-family: Roboto, sans-serif;
   }
-  td {
-    border: 5px solid black;
-    padding: 15px;
-    text-align: center;
+ 
+    /*Cabecera de la tabla*/
+    thead{
+      justify-content: center;
+      text-align: center;
+      color: white;
+      background-color: #032f4f;
+      line-height: 1.15em;
+      padding: 0.9em 0.6em 0.5em;
+     font-family: Roboto, sans-serif;
+     
+    }
+    
+    .clasif{
+      width: 15vh;
+    }
+    tbody{
+      border: 2px gray solid;
+      padding: 15px;
+      text-align: center;
+    }
+    td{
+      height: 14vh;
+      padding: 0.9em 0.6em;
+      font-style: normal;
+      font-size: 1em;
+      color: #333;
+      
+      text-align: center;
+      justify-content: center;
+    }
+
+.colordiferente{
+  background-color: #e4e3e3 ;
+}
+
+.escudo1{
+  height: 14vh;
+  width: 5em;
+}
+.escudos{
+  height: 14vh;
+  display: block;
+  width: 17vh;
+}
+.nombre{
+  width:20em;
 }
     
     footer {
