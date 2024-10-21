@@ -86,6 +86,17 @@ margin: 0px 0px 0px 500px;
     body{
       background-color: lightgray;
     }
+    
+    #calendario1{
+      display: flex;
+      justify-content: center;
+      
+     
+    }
+
+    #calendario{
+      
+    }
 
     footer {
       background-color: #0046a5;
